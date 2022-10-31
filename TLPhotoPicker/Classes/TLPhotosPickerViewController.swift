@@ -73,6 +73,7 @@ public struct TLPhotosPickerConfigure {
     public var recordingVideoQuality: UIImagePickerController.QualityType = .typeMedium
     public var maxVideoDuration:TimeInterval? = nil
     public var autoPlay = true
+    public var isOrderLabelHidden = false 
     public var muteAudio = true
     public var preventAutomaticLimitedAccessAlert = true
     public var mediaType: PHAssetMediaType? = nil
