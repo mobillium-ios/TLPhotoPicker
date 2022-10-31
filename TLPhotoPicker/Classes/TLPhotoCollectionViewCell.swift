@@ -51,6 +51,8 @@ open class TLPhotoCollectionViewCell: UICollectionViewCell {
             self.videoIconImageView?.image = self.configure.videoIcon
             self.orderBgView?.isHidden = self.configure.singleSelectedMode
             self.orderLabel?.isHidden = self.configure.singleSelectedMode
+            self.orderLabel?.isHidden = self.configure.isOrderLabelHidden
+            self.orderBgView?.isHidden = self.configure.isOrderLabelHidden
         }
     }
     
