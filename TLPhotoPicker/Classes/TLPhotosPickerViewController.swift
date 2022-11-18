@@ -416,7 +416,9 @@ extension TLPhotosPickerViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(titleTap))
         self.titleView.addGestureRecognizer(tapGesture)
         self.titleLabel.text = self.configure.customLocalizedTitle["Camera Roll"]
+        self.titleLabel.textColor = .white
         self.subTitleLabel.text = self.configure.tapHereToChange
+        self.subTitleLabel.textColor = .white
         self.cancelButton.title = self.configure.cancelTitle
         
         let attributes: [NSAttributedString.Key: Any] = [.font: UIFont.boldSystemFont(ofSize: UIFont.labelFontSize)]
